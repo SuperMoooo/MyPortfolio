@@ -12,7 +12,7 @@ export default function Projects() {
             <section className="flex items-center justify-center flex-col space-y-12 w-full">
                 <div className="flex gap-6 items-center justify-center">
                     <hr className="w-20 h-1 border-white border-1 hrGradient  md:w-48 lg:w-72" />
-                    <h1 className="uppercase text-5xl italic">Projects</h1>
+                    <h1 className="uppercase text-4xl  italic">Projects</h1>
                     <hr className="w-20 h-1 border-white border-1 hrGradient2 md:w-48 lg:w-72" />
                 </div>
 
