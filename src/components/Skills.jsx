@@ -39,7 +39,7 @@ export default function Skills() {
             <section className="mt-20 flex flex-col items-center ">
                 <div className="flex gap-6 items-center justify-center">
                     <hr className="w-20 h-1 border-white border-1 hrGradient  md:w-48 lg:w-72" />
-                    <h1 className="uppercase text-4xl italic">Skills</h1>
+                    <h1 className="uppercase text-3xl italic">Skills</h1>
                     <hr className="w-20 h-1 border-white border-1 hrGradient2 md:w-48 lg:w-72" />
                 </div>
                 <ul className="grid grid-cols-2 gap-5 md:grid-cols-3 md:gap-12 lg:grid-cols-5 lg:gap-14 items-center justify-center  mt-10">

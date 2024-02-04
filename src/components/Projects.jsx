@@ -12,19 +12,19 @@ export default function Projects() {
             <section className="flex items-center justify-center flex-col space-y-12 w-full">
                 <div className="flex gap-6 items-center justify-center">
                     <hr className="w-20 h-1 border-white border-1 hrGradient  md:w-48 lg:w-72" />
-                    <h1 className="uppercase text-4xl  italic">Projects</h1>
+                    <h1 className="uppercase text-3xl  italic">Projects</h1>
                     <hr className="w-20 h-1 border-white border-1 hrGradient2 md:w-48 lg:w-72" />
                 </div>
 
                 <ul className="grid grid-cols-1 gap-14 w-full px-8 md:grid-cols-3 md:gap-5 md:px-10 lg:grid-cols-4 grid-flow-row">
                     <ProjectCard
                         img={portfolio}
-                        liveLink=""
+                        liveLink="https://supermoooo.github.io/MyPortfolio/"
                         gitHubTrue={true}
-                        gitHubLink="https://github.com/SuperMoooo/Portfolio"
+                        gitHubLink="https://github.com/SuperMoooo/MyPortfolio"
                         title="My Portfolio"
                         desc="The site you are on right now"
-                        techs={['React', 'TailWind']}
+                        techs={['React', 'Tailwind']}
                     />
                     <ProjectCard
                         img={kubicDeal}
