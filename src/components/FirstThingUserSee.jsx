@@ -1,5 +1,4 @@
 import cv from '../assets/CV_AndreMontoito.pdf';
-import bgAsset1 from '../assets/bg-asset1.png';
 export default function FirstThingUserSee() {
     return (
         <>
@@ -19,26 +18,6 @@ export default function FirstThingUserSee() {
                         </button>
                     </div>
                 </div>
-
-                <span className="absolute animate-pulse top-[-210px] left-[-65px] lg:left-[-135px]">
-                    {' '}
-                    <img
-                        className="w-32 h-32 lg:w-64 lg:h-64"
-                        src={bgAsset1}
-                        alt="assetsBg"
-                        rel="preload"
-                    />
-                </span>
-
-                <span className="absolute animate-pulse top-[280px] right-[-65px] lg:right-[-135px]">
-                    {' '}
-                    <img
-                        className="w-32 h-32 lg:w-64 lg:h-64 "
-                        src={bgAsset1}
-                        alt="assetsBg"
-                        rel="preload"
-                    />
-                </span>
             </div>
         </>
     );

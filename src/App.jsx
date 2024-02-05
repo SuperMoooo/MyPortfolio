@@ -10,7 +10,7 @@ export default function App() {
     return (
         <>
             <div className="scroll-smooth text-white bg-gradient-to-b from-[#161616] to-[#080808] tracking-widest font-extralight  h-full text-pretty ">
-                <section className="h-svh  overflow-x-hidden">
+                <section className=" overflow-x-hidden">
                     <NavBar />
                     <FirstThingUserSee />
                     <ScrollDown />
