@@ -6,6 +6,7 @@ import slimeGame from '../assets/projectsImg/slimeGame.webp';
 import rockPaperScissors from '../assets/projectsImg/rockPaperScissors.webp';
 import ticTacToe from '../assets/projectsImg/ticTacToe.webp';
 import portfolio from '../assets/projectsImg/portfolio.webp';
+import nbaSite from '../assets/projectsImg/nbasite.webp';
 export default function Projects() {
     return (
         <>
@@ -82,6 +83,15 @@ export default function Projects() {
                         title="BlackJack Game"
                         desc="BlackJack game with infinite money and no split cards"
                         techs={['HTML', 'CSS', 'JavaScript']}
+                    />
+                    <ProjectCard
+                        img={nbaSite}
+                        liveLink="https://supermoooo.github.io/NBA-SITE/"
+                        gitHubTrue={true}
+                        gitHubLink="https://github.com/SuperMoooo/NBA-SITE"
+                        title="NBA teams Website"
+                        desc="A website with some information about the teams of the NBA"
+                        techs={['React, Tailwind, API']}
                     />
                 </ul>
             </section>
