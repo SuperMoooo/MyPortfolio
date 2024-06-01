@@ -6,7 +6,8 @@ import slimeGame from '../assets/projectsImg/slimeGame.webp';
 import rockPaperScissors from '../assets/projectsImg/rockPaperScissors.webp';
 import ticTacToe from '../assets/projectsImg/ticTacToe.webp';
 import portfolio from '../assets/projectsImg/portfolio.webp';
-import nbaSite from '../assets/projectsImg/nbasite.webp';
+import bipo from '../assets/projectsImg/bipo.webp';
+import moT from '../assets/projectsImg/moT.webp';
 export default function Projects() {
     return (
         <>
@@ -84,14 +85,25 @@ export default function Projects() {
                         desc="BlackJack game with infinite money and no split cards"
                         techs={['HTML', 'CSS', 'JavaScript']}
                     />
+
                     <ProjectCard
-                        img={nbaSite}
-                        liveLink="https://supermoooo.github.io/NBA-SITE/"
+                        img={bipo}
+                        liveLink="https://supermoooo.itch.io/bipo"
+                        gitHubTrue={false}
+                        gitHubLink=""
+                        title="Bipo Game"
+                        desc="Game developed within the scope of the game development discipline"
+                        techs={['Unreal Engine 5']}
+                    />
+
+                    <ProjectCard
+                        img={moT}
+                        liveLink="https://expo.dev/artifacts/eas/8X338QNcAUx3SXnfFfXoA8.apk"
                         gitHubTrue={true}
-                        gitHubLink="https://github.com/SuperMoooo/NBA-SITE"
-                        title="NBA teams Website"
-                        desc="A website with some information about the teams of the NBA"
-                        techs={['React, Tailwind, API']}
+                        gitHubLink="https://github.com/SuperMoooo/MoT/tree/master?tab=readme-ov-file"
+                        title="MoT"
+                        desc="Mobile app to track birthdays (with notification when its birthday), notes and tasks"
+                        techs={['React Native', 'Redux', 'JavaScript']}
                     />
                 </ul>
             </section>

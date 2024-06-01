@@ -6,7 +6,7 @@ import reactImg from '../assets/techsImg/react.webp';
 import tailwindImg from '../assets/techsImg/tailwind.webp';
 import pythonImg from '../assets/techsImg/python.webp';
 import cSharpImg from '../assets/techsImg/cSharp.webp';
-import phpImg from '../assets/techsImg/php.webp';
+import nodeImg from '../assets/techsImg/node.webp';
 import sqlImg from '../assets/techsImg/sql.webp';
 import vsCodeImg from '../assets/techsImg/vsCode.webp';
 import vsImg from '../assets/techsImg/vs.webp';
@@ -24,7 +24,7 @@ export default function Skills() {
         tailwind: { name: 'Tailwind', src: tailwindImg },
         python: { name: 'Python', src: pythonImg },
         cSharp: { name: 'C#', src: cSharpImg },
-        php: { name: 'PHP', src: phpImg },
+        node: { name: 'NodeJs', src: nodeImg },
         sql: { name: 'SQL', src: sqlImg },
         vsCode: { name: 'VS Code', src: vsCodeImg },
         vs: { name: 'VS', src: vsImg },
