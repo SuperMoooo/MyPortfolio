@@ -11,10 +11,11 @@ export default function ProjectCard({
     return (
         <li className="flex flex-col text-left justify-center gap-8 border transition-all  border-zinc-900 rounded-lg shadow hover:bg-zinc-800 bg-zinc-900">
             <img
-                className="w-full h-full object-cover rounded-t-lg "
+                className="w-full h-full object-cover object-center rounded-t-lg aspect-video "
                 src={img}
-                alt="planetsWebsite"
+                alt={img}
                 rel="preload"
+                loading="lazy"
             />
             <section className="flex flex-col text-left justify-center gap-6 p-4 pt-0">
                 <p className="uppercase italic underline underline-offset-4 text-[#fed7aa] text-xl">
