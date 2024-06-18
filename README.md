@@ -1,4 +1,4 @@
-My Portfolio - React + TailWind
+My Portfolio - React + Tailwind
 Live:https://supermoooo.github.io/MyPortfolio/
 
 
