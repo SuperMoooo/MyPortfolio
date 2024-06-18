@@ -3,7 +3,7 @@ export default function FirstThingUserSee() {
     return (
         <>
             <div className="relative flex items-center justify-center w-full mt-60 ">
-                <div className="flex items-center justify-center w-full flex-col ">
+                <div className="flex items-center justify-center w-full flex-col space-y-2 ">
                     <p className="uppercase text-3xl transition translateTextNoColor">
                         André Montoito
                     </p>

@@ -8,6 +8,8 @@ import ticTacToe from '../assets/projectsImg/ticTacToe.webp';
 import portfolio from '../assets/projectsImg/portfolio.webp';
 import bipo from '../assets/projectsImg/bipo.webp';
 import moT from '../assets/projectsImg/moT.webp';
+import customizeBtn from '../assets/projectsImg/customizeBtn.webp';
+
 export default function Projects() {
     return (
         <>
@@ -100,10 +102,19 @@ export default function Projects() {
                         img={moT}
                         liveLink="https://expo.dev/artifacts/eas/8X338QNcAUx3SXnfFfXoA8.apk"
                         gitHubTrue={true}
-                        gitHubLink="https://github.com/SuperMoooo/MoT/tree/master?tab=readme-ov-file"
+                        gitHubLink="https://github.com/SuperMoooo/MoT"
                         title="MoT"
                         desc="Mobile app to track birthdays (with notification when its birthday), notes and tasks"
                         techs={['React Native', 'Redux', 'JavaScript']}
+                    />
+                    <ProjectCard
+                        img={customizeBtn}
+                        liveLink="https://supermoooo.github.io/customizeBtn/"
+                        gitHubTrue={true}
+                        gitHubLink="https://github.com/SuperMoooo/customizeBtn"
+                        title="Customize Button"
+                        desc="Website to customize the button of your app"
+                        techs={['React', 'Tailwind', 'Material UI']}
                     />
                 </ul>
             </section>
