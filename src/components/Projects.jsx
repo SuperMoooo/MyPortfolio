@@ -8,6 +8,8 @@ import ticTacToe from '../assets/projectsImg/ticTacToe.webp';
 import portfolio from '../assets/projectsImg/portfolio.webp';
 import bipo from '../assets/projectsImg/bipo.webp';
 import moT from '../assets/projectsImg/moT.webp';
+import nbaSite from '../assets/projectsImg/nbaSite.webp';
+
 import customizeBtn from '../assets/projectsImg/customizeBtn.webp';
 
 export default function Projects() {
@@ -31,6 +33,15 @@ export default function Projects() {
                         techs={['React', 'Tailwind']}
                     />
                     <ProjectCard
+                        img={moT}
+                        liveLink="https://expo.dev/artifacts/eas/8X338QNcAUx3SXnfFfXoA8.apk"
+                        gitHubTrue={true}
+                        gitHubLink="https://github.com/SuperMoooo/MoT"
+                        title="MoT"
+                        desc="Mobile app to track birthdays (with notification when its birthday), notes and tasks"
+                        techs={['React Native', 'Redux', 'JavaScript']}
+                    />
+                    <ProjectCard
                         img={kubicDeal}
                         liveLink="https://kubicdeal.pt/"
                         gitHubTrue={false}
@@ -38,6 +49,15 @@ export default function Projects() {
                         title="Kubic Deal"
                         desc="A website made for a client for the start of the company"
                         techs={['HTML', 'CSS', 'JavaScript']}
+                    />
+                    <ProjectCard
+                        img={nbaSite}
+                        liveLink="https://supermoooo.github.io/NBA-SITE/"
+                        gitHubTrue={true}
+                        gitHubLink="https://github.com/SuperMoooo/NBA-SITE"
+                        title="NBA teams "
+                        desc="NBA teams website made using API data"
+                        techs={['React', 'Tailwind', 'API']}
                     />
                     <ProjectCard
                         img={planetWebImg}
@@ -98,15 +118,6 @@ export default function Projects() {
                         techs={['Unreal Engine 5']}
                     />
 
-                    <ProjectCard
-                        img={moT}
-                        liveLink="https://expo.dev/artifacts/eas/8X338QNcAUx3SXnfFfXoA8.apk"
-                        gitHubTrue={true}
-                        gitHubLink="https://github.com/SuperMoooo/MoT"
-                        title="MoT"
-                        desc="Mobile app to track birthdays (with notification when its birthday), notes and tasks"
-                        techs={['React Native', 'Redux', 'JavaScript']}
-                    />
                     <ProjectCard
                         img={customizeBtn}
                         liveLink="https://supermoooo.github.io/customizeBtn/"
