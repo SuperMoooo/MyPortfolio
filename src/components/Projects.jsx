@@ -9,7 +9,7 @@ import portfolio from '../assets/projectsImg/portfolio.webp';
 import bipo from '../assets/projectsImg/bipo.webp';
 import moT from '../assets/projectsImg/moT.webp';
 import nbaSite from '../assets/projectsImg/nbaSite.webp';
-
+import footballTeamSite from '../assets/projectsImg/footballTeamSite.webp';
 import customizeBtn from '../assets/projectsImg/customizeBtn.webp';
 
 export default function Projects() {
@@ -51,11 +51,20 @@ export default function Projects() {
                         techs={['HTML', 'CSS', 'JavaScript']}
                     />
                     <ProjectCard
+                        img={footballTeamSite}
+                        liveLink="https://supermoooo.github.io/footballTeamSite/"
+                        gitHubTrue={true}
+                        gitHubLink="https://github.com/SuperMoooo/footballTeamSite"
+                        title="Football Team Site"
+                        desc="Website made for a football team"
+                        techs={['Next Js', 'Tailwind']}
+                    />
+                    <ProjectCard
                         img={nbaSite}
                         liveLink="https://supermoooo.github.io/NBA-SITE/"
                         gitHubTrue={true}
                         gitHubLink="https://github.com/SuperMoooo/NBA-SITE"
-                        title="NBA teams "
+                        title="NBA teams"
                         desc="NBA teams website made using API data"
                         techs={['React', 'Tailwind', 'API']}
                     />
