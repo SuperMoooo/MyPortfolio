@@ -11,6 +11,7 @@ import moT from '../assets/projectsImg/moT.webp';
 import nbaSite from '../assets/projectsImg/nbaSite.webp';
 import footballTeamSite from '../assets/projectsImg/footballTeamSite.webp';
 import customizeBtn from '../assets/projectsImg/customizeBtn.webp';
+import shoppingCart from '../assets/projectsImg/shoppingCart.webp';
 
 export default function Projects() {
     return (
@@ -58,6 +59,15 @@ export default function Projects() {
                         title="Football Team Site"
                         desc="Website made for a football team"
                         techs={['Next Js', 'Tailwind']}
+                    />
+                    <ProjectCard
+                        img={shoppingCart}
+                        liveLink="https://supermoooo.github.io/shoppingcart/"
+                        gitHubTrue={true}
+                        gitHubLink="https://github.com/SuperMoooo/shoppingcart"
+                        title="Shopping Cart"
+                        desc="Shopping Cart to learn redux"
+                        techs={['Next Js', 'Redux', 'Tailwind']}
                     />
                     <ProjectCard
                         img={nbaSite}
