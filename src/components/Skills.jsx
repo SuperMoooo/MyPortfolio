@@ -16,8 +16,7 @@ import psImg from '../assets/techsImg/ps.webp';
 import gitImg from '../assets/techsImg/git.webp';
 import mui from '../assets/techsImg/mui.webp';
 import redux from '../assets/techsImg/redux.webp';
-import bootstrap from '../assets/techsImg/bootstrap.webp';
-import sass from '../assets/techsImg/sass.webp';
+import nextjs from '../assets/techsImg/nextjs.webp';
 
 export default function Skills() {
     const techs = {
@@ -25,11 +24,10 @@ export default function Skills() {
         html: { name: 'HTML', src: htmlImg },
         css: { name: 'CSS', src: cssImg },
         js: { name: 'JavaScript', src: jsImg },
-        sass: { name: 'Sass', src: sass },
         tailwind: { name: 'Tailwind', src: tailwindImg },
         mui: { name: 'Material UI', src: mui },
-        bootstrap: { name: 'Bootstrap', src: bootstrap },
-        redux: { name: 'Redux', src: redux },
+        redux: { name: 'Redux TK', src: redux },
+        nextjs: { name: 'Next JS', src: nextjs },
         node: { name: 'NodeJs', src: nodeImg },
         sql: { name: 'SQL', src: sqlImg },
         python: { name: 'Python', src: pythonImg },
