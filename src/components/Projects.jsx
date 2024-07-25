@@ -12,6 +12,9 @@ import nbaSite from '../assets/projectsImg/nbaSite.webp';
 import footballTeamSite from '../assets/projectsImg/footballTeamSite.webp';
 import customizeBtn from '../assets/projectsImg/customizeBtn.webp';
 import shoppingCart from '../assets/projectsImg/shoppingCart.webp';
+import comicChars from '../assets/projectsImg/comicChars.webp';
+import microsoftInter from '../assets/projectsImg/microsoftInter.webp';
+import uberInter from '../assets/projectsImg/uberInter.webp';
 
 export default function Projects() {
     return (
@@ -23,7 +26,7 @@ export default function Projects() {
                     <hr className="w-20 h-1 border-white border-1 hrGradient2 md:w-48 lg:w-72" />
                 </div>
 
-                <ul className="grid grid-cols-1 gap-14 w-full px-8 md:grid-cols-3 md:gap-5 md:px-10 lg:grid-cols-4 grid-flow-row">
+                <ul className="grid grid-cols-1 gap-4 w-full px-10 lg:px-32 sm:grid-cols-2 md:gap-14 lg:grid-cols-3 grid-flow-row ">
                     <ProjectCard
                         img={portfolio}
                         liveLink="https://supermoooo.github.io/MyPortfolio/"
@@ -50,6 +53,21 @@ export default function Projects() {
                         title="Kubic Deal"
                         desc="A website made for a client for the start of the company"
                         techs={['HTML', 'CSS', 'JavaScript']}
+                    />
+                    <ProjectCard
+                        img={comicChars}
+                        liveLink="https://superheroesinfo.vercel.app/"
+                        gitHubTrue={true}
+                        gitHubLink="https://github.com/SuperMoooo/superheroesinfo"
+                        title="Comic Characters Info"
+                        desc="Comic Characters Info (Appearance, biography, powerstats, etc...)"
+                        techs={[
+                            'Next Js',
+                            'Tailwind',
+                            'API',
+                            'Redux TK',
+                            'Material UI',
+                        ]}
                     />
                     <ProjectCard
                         img={footballTeamSite}
@@ -137,6 +155,24 @@ export default function Projects() {
                         techs={['Unreal Engine 5']}
                     />
 
+                    <ProjectCard
+                        img={microsoftInter}
+                        liveLink="https://supermoooo.github.io/microsoftInterviewQuestionPractice/"
+                        gitHubTrue={true}
+                        gitHubLink="https://github.com/SuperMoooo/microsoftInterviewQuestionPractice"
+                        title="Interview Question Practice"
+                        desc="Microsoft Interview Question Practice"
+                        techs={['React']}
+                    />
+                    <ProjectCard
+                        img={uberInter}
+                        liveLink="https://supermoooo.github.io/uberInterviewQuestionPractice/"
+                        gitHubTrue={true}
+                        gitHubLink="https://github.com/SuperMoooo/uberInterviewQuestionPractice"
+                        title="Interview Question Practice"
+                        desc="Uber Interview Question Practice"
+                        techs={['React']}
+                    />
                     <ProjectCard
                         img={customizeBtn}
                         liveLink="https://supermoooo.github.io/customizeBtn/"

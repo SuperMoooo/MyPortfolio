@@ -9,20 +9,22 @@ export default function ProjectCard({
 }) {
     const techsList = techs;
     return (
-        <li className="flex flex-col text-left justify-center gap-8 border transition-all  border-zinc-900 rounded-lg shadow hover:bg-zinc-800 bg-zinc-900">
-            <img
-                className="w-full h-full object-cover object-center rounded-t-lg aspect-video "
-                src={img}
-                alt={img}
-                rel="preload"
-                loading="lazy"
-            />
-            <section className="flex flex-col text-left justify-center gap-6 p-4 pt-0">
-                <p className="uppercase italic underline underline-offset-4 text-[#fed7aa] text-xl">
+        <li className="grid grid-row-[1fr_auto] text-left justify-center gap-4 border transition-all  border-zinc-900 rounded-lg shadow hover:bg-zinc-800 bg-zinc-900">
+            <picture className="w-full h-full">
+                <img
+                    className="w-full h-full object-cover object-center rounded-t-lg aspect-video "
+                    src={img}
+                    alt={img}
+                    rel="preload"
+                    loading="lazy"
+                />
+            </picture>
+            <section className="flex flex-col text-left justify-center gap-2 p-4 pt-0 h-80">
+                <p className="uppercase font-bold text-white text-2xl">
                     {title}
                 </p>
-
-                <p className="uppercase">{desc}</p>
+                <div className="w-full h-[1px] bg-white"></div>
+                <p className=" text-zinc-300 mt-2">{desc}</p>
                 <div className="flex items-end justify-between gap-4 h-full">
                     <div className="flex items-start justify-end flex-col gap-2 ">
                         <a
