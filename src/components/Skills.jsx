@@ -17,7 +17,7 @@ import gitImg from '../assets/techsImg/git.webp';
 import mui from '../assets/techsImg/mui.webp';
 import redux from '../assets/techsImg/redux.webp';
 import nextjs from '../assets/techsImg/nextjs.webp';
-
+import typeScript from '../assets/techsImg/typeScript.webp';
 export default function Skills() {
     const techs = {
         react: { name: 'React', src: reactImg },
@@ -28,6 +28,7 @@ export default function Skills() {
         mui: { name: 'Material UI', src: mui },
         redux: { name: 'Redux TK', src: redux },
         nextjs: { name: 'Next JS', src: nextjs },
+        typeScript: { name: 'TypeScript', src: typeScript },
         node: { name: 'NodeJs', src: nodeImg },
         sql: { name: 'SQL', src: sqlImg },
         python: { name: 'Python', src: pythonImg },

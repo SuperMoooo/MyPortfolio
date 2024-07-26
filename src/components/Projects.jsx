@@ -26,7 +26,7 @@ export default function Projects() {
                     <hr className="w-20 h-1 border-white border-1 hrGradient2 md:w-48 lg:w-72" />
                 </div>
 
-                <ul className="grid grid-cols-1 gap-4 w-full px-10 lg:px-32 sm:grid-cols-2 md:gap-14 lg:grid-cols-3 grid-flow-row ">
+                <ul className="grid grid-cols-1 gap-4 w-full px-10 lg:px-20 sm:grid-cols-2  lg:grid-cols-3 grid-flow-row ">
                     <ProjectCard
                         img={portfolio}
                         liveLink="https://supermoooo.github.io/MyPortfolio/"
@@ -43,7 +43,7 @@ export default function Projects() {
                         gitHubLink="https://github.com/SuperMoooo/MoT"
                         title="MoT"
                         desc="Mobile app to track birthdays (with notification when its birthday), notes and tasks"
-                        techs={['React Native', 'Redux', 'JavaScript']}
+                        techs={['React Native', 'Redux TK', 'JavaScript']}
                     />
                     <ProjectCard
                         img={kubicDeal}
@@ -62,11 +62,11 @@ export default function Projects() {
                         title="Comic Characters Info"
                         desc="Comic Characters Info (Appearance, biography, powerstats, etc...)"
                         techs={[
-                            'Next Js',
+                            'Next.JS',
                             'Tailwind',
                             'API',
                             'Redux TK',
-                            'Material UI',
+                            'MUI',
                         ]}
                     />
                     <ProjectCard
@@ -76,7 +76,7 @@ export default function Projects() {
                         gitHubLink="https://github.com/SuperMoooo/footballTeamSite"
                         title="Football Team Site"
                         desc="Website made for a football team"
-                        techs={['Next Js', 'Tailwind']}
+                        techs={['Next.JS', 'Tailwind']}
                     />
                     <ProjectCard
                         img={shoppingCart}
@@ -85,7 +85,7 @@ export default function Projects() {
                         gitHubLink="https://github.com/SuperMoooo/shoppingcart"
                         title="Shopping Cart"
                         desc="Shopping Cart to learn redux"
-                        techs={['Next Js', 'Redux', 'Tailwind']}
+                        techs={['Next.JS', 'Redux TK', 'Tailwind']}
                     />
                     <ProjectCard
                         img={nbaSite}
