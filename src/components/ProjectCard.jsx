@@ -9,7 +9,7 @@ export default function ProjectCard({
 }) {
     const techsList = techs;
     return (
-        <li className="grid grid-row-[1fr_auto] text-left justify-center gap-4 border transition-all  border-zinc-900 rounded-lg shadow  bg-zinc-900">
+        <li className="grid grid-row-[1fr_auto] text-left  gap-4 rounded-lg shadow  bg-zinc-900">
             <picture className="w-full h-full">
                 <img
                     className="w-full h-full object-cover object-center rounded-t-lg aspect-video "
@@ -44,7 +44,7 @@ export default function ProjectCard({
                             Github
                         </a>
                     </div>
-                    <ul className="grid grid-rows-[1fr-auto] grid-cols-[auto_auto_auto] sm:grid-cols-[auto_auto_auto]  text-left items-end gap-2 text-[#fed7aa] ">
+                    <ul className="flex items-start justify-left flex-wrap  text-left gap-2 text-[#fed7aa] ">
                         {techsList.map((tech, index) => (
                             <li key={tech} className="w-fit">
                                 {tech}

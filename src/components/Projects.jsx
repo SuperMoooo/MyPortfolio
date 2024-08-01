@@ -15,16 +15,13 @@ import shoppingCart from '../assets/projectsImg/shoppingCart.webp';
 import comicChars from '../assets/projectsImg/comicChars.webp';
 import microsoftInter from '../assets/projectsImg/microsoftInter.webp';
 import uberInter from '../assets/projectsImg/uberInter.webp';
+import Title from './Title';
 
 export default function Projects() {
     return (
         <>
             <section className="flex items-center justify-center flex-col space-y-12 w-full">
-                <div className="flex gap-6 items-center justify-center">
-                    <hr className="w-20 h-1 border-white border-1 hrGradient  md:w-48 lg:w-72" />
-                    <h1 className="uppercase text-3xl  italic">Projects</h1>
-                    <hr className="w-20 h-1 border-white border-1 hrGradient2 md:w-48 lg:w-72" />
-                </div>
+                <Title title="Projects" />
 
                 <ul className="grid grid-cols-1 gap-4 w-full px-10 lg:px-20 sm:grid-cols-2  lg:grid-cols-3 grid-flow-row ">
                     <ProjectCard

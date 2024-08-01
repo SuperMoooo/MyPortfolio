@@ -1,27 +1,55 @@
 import React from 'react';
 
-export default function Jobs({ date, jobTitle, company, img }) {
+export default function Jobs({ company, position, date, img, side, rowStart }) {
     return (
-        <li className="bg-zinc-900 p-0 border  border-zinc-900 rounded-lg shadow space-y-2 flex items-center justify-center flex-row w-[20rem] md:w-[36rem] lg:w-[40rem] h-48">
-            <div className="flex flex-row md:w-60 w-full items-start justify-start ">
-                <img
-                    src={img}
-                    alt={img}
-                    className="md:w-48 md:h-48 w-60 object-fill h-48  rounded-s-lg"
-                    rel="preload"
-                />
+        <div
+            style={{ gridRowStart: rowStart }}
+            className={`grid grid-rows-[auto_auto_1fr] my-8 w-full h-full border-l-[1px]  border-zinc-700 ${
+                side === 0
+                    ? 'sm:col-start-1  sm:border-r-[1px] sm:border-l-transparent sm:border-zinc-700'
+                    : ' sm:col-start-2 sm:ml-[-0.1rem] sm:border-l-[1px] sm:border-zinc-700'
+            } `}
+        >
+            <div
+                className={`flex justify-between ${
+                    side === 0 ? 'flex-row' : 'sm:flex-row-reverse'
+                }`}
+            >
+                <picture className="pl-2 sm:pl-0 ">
+                    <img
+                        src={img}
+                        alt={img}
+                        className="object-cover rounded-lg w-14 h-14 "
+                        rel="preload"
+                    />
+                </picture>
+                <div
+                    className={`flex items-end text-left flex-1 ml-4 sm:ml-0 ${
+                        side === 0 ? 'text-left ml-4' : 'text-right sm:mr-4'
+                    } `}
+                >
+                    <h1 className="uppercase font-bold">{company}</h1>
+                </div>
+                <div
+                    className={`${
+                        side === 0
+                            ? 'text-right mr-[0.5rem]'
+                            : 'sm:text-left sm:ml-[0.5rem]'
+                    } grid items-end  sm:flex-1 text-right`}
+                >
+                    <h2 className="font-thin">{date}</h2>
+                </div>
             </div>
-            <div className="flex flex-col w-full  justify-between items-center p-6">
-                <p className="lg:text-2xl text-lg italic text-center mb-4">
-                    {company}
-                </p>
-                <p className=" italic md:text-1xl text-[14px] text-[#fed7aa] text-center mb-1">
-                    {jobTitle}
-                </p>
-                <p className=" italic md:text-1xl text-[14px] text-[#fed7aa] text-center">
-                    {date}
-                </p>
+            <div>
+                <div className="w-full h-[1px] bg-zinc-700 my-1"></div>
+                <h3
+                    className={`font-thin pl-2 sm:pl-0 ${
+                        side === 0 ? ' text-left' : 'sm:text-right'
+                    }`}
+                >
+                    {position}
+                </h3>
             </div>
-        </li>
+        </div>
     );
 }
