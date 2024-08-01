@@ -24,8 +24,10 @@ export default function Jobs({ company, position, date, img, side, rowStart }) {
                     />
                 </picture>
                 <div
-                    className={`flex items-end text-left flex-1 ml-4 sm:ml-0 ${
-                        side === 0 ? 'text-left ml-4' : 'text-right sm:mr-4'
+                    className={`grid items-end text-left flex-1 ml-4 sm:ml-0 ${
+                        side === 0
+                            ? 'text-left sm:ml-4'
+                            : 'sm:text-right sm:mr-4'
                     } `}
                 >
                     <h1 className="uppercase font-bold">{company}</h1>
@@ -35,7 +37,7 @@ export default function Jobs({ company, position, date, img, side, rowStart }) {
                         side === 0
                             ? 'text-right mr-[0.5rem]'
                             : 'sm:text-left sm:ml-[0.5rem]'
-                    } grid items-end  sm:flex-1 text-right`}
+                    } grid items-end   text-right`}
                 >
                     <h2 className="font-thin">{date}</h2>
                 </div>
