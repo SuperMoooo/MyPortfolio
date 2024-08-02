@@ -9,22 +9,24 @@ export default function ProjectCard({
 }) {
     const techsList = techs;
     return (
-        <li className="grid grid-row-[1fr_auto] text-left  gap-4 rounded-lg shadow  bg-zinc-900">
-            <picture className="w-full h-full">
-                <img
-                    className="w-full h-full object-cover object-center rounded-t-lg aspect-video "
-                    src={img}
-                    alt={img}
-                    rel="preload"
-                    loading="lazy"
-                />
-            </picture>
-            <section className="flex flex-col text-left justify-center gap-2 p-4 pt-0 h-72">
+        <li className="grid grid-row-[1fr_auto] text-left  gap-4 rounded-lg shadow-md bg-zinc-900">
+            <a href={liveLink} target="_blank" rel="noreferrer">
+                <picture className="w-full h-full">
+                    <img
+                        className="w-full h-full object-cover object-center rounded-t-lg aspect-video "
+                        src={img}
+                        alt={img}
+                        rel="preload"
+                        loading="lazy"
+                    />
+                </picture>
+            </a>
+            <section className="flex flex-col text-left justify-center  p-4 pt-0 h-72">
                 <p className="uppercase font-bold text-white md:text-2xl sm:text-xl text-lg">
                     {title}
                 </p>
-                <div className="w-full h-[1px] bg-white"></div>
-                <p className=" text-zinc-300 mt-2">{desc}</p>
+                <div className="w-full h-[1px] bg-white my-1"></div>
+                <p className=" text-zinc-300 mt-1">{desc}</p>
                 <div className="flex flex-col items-start justify-between gap-4 h-full mt-4">
                     <div className="flex items-start justify-end flex-row gap-2 ">
                         <a

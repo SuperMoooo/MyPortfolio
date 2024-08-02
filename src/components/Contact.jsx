@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <section className="mt-20 flex items-center justify-center flex-col">
             <Title title="Contact" />
-            <div className=" border p-4 border-zinc-900 rounded-lg shadow flex items-center justify-center flex-col w-70 md:w-[42rem] lg:w-[56rem] h-36">
+            <div className="p-4 bg-zinc-900 rounded-lg shadow flex items-center justify-center flex-col w-70 md:w-[42rem] lg:w-[56rem] h-36">
                 <div className="text-xl  text-center text-[#fed7aa] md:text-2xl lg:text-3xl grid grid-rows-2 gap-4 place-items-center flex-col ">
                     <div className="flex items-center justify-center flex-row space-x-3">
                         <picture className="h-full flex items-center justify-center md:mt-[0.3rem] mt-[0.2rem]">
