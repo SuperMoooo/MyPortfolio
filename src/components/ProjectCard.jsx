@@ -22,12 +22,20 @@ export default function ProjectCard({
                 </picture>
             </a>
             <section className="flex flex-col text-left justify-center  p-4 pt-0 h-72">
-                <p className="uppercase font-bold text-white md:text-2xl sm:text-xl text-lg">
+                <p className="uppercase font-bold text-white md:text-2xl sm:text-xl text-2xl">
                     {title}
                 </p>
                 <div className="w-full h-[1px] bg-white my-1"></div>
-                <p className=" text-zinc-300 mt-1">{desc}</p>
-                <div className="flex flex-col items-start justify-between gap-4 h-full mt-4">
+                <p className=" text-zinc-300 mt-1 h-full">{desc}</p>
+                <ul className="flex items-start justify-left flex-wrap  text-left gap-2 text-[#fed7aa] ">
+                    {techsList.map((tech, index) => (
+                        <li key={tech} className="w-fit">
+                            {tech}
+                            {techsList.length - 1 !== index && ','}
+                        </li>
+                    ))}
+                </ul>
+                <div className="flex flex-col items-start justify-between gap-4 mt-4">
                     <div className="flex items-start justify-end flex-row gap-2 ">
                         <a
                             className="hover:underline  font-bold text-white bg-red-700 uppercase border border-red-500 rounded-md p-1 px-2"
@@ -46,14 +54,6 @@ export default function ProjectCard({
                             Github
                         </a>
                     </div>
-                    <ul className="flex items-start justify-left flex-wrap  text-left gap-2 text-[#fed7aa] ">
-                        {techsList.map((tech, index) => (
-                            <li key={tech} className="w-fit">
-                                {tech}
-                                {techsList.length - 1 !== index && ','}
-                            </li>
-                        ))}
-                    </ul>
                 </div>
             </section>
         </li>

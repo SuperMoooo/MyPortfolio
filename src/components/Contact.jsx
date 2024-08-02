@@ -19,7 +19,7 @@ export default function Contact() {
                                 <path d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z" />
                             </svg>
                         </picture>
-                        <h5 className="h-full">andremontoito@gmail.com</h5>
+                        <p>andremontoito@gmail.com</p>
                     </div>
                     <div className="flex items-center justify-center flex-row space-x-3">
                         <picture className=" flex items-center justify-center w-full h-full">
@@ -34,7 +34,7 @@ export default function Contact() {
                                 <path d="M12 10c-1.104 0-2-.896-2-2s.896-2 2-2 2 .896 2 2-.896 2-2 2m0-5c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3m-7 2.602c0-3.517 3.271-6.602 7-6.602s7 3.085 7 6.602c0 3.455-2.563 7.543-7 14.527-4.489-7.073-7-11.072-7-14.527m7-7.602c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602" />
                             </svg>
                         </picture>
-                        <h5>Portugal</h5>
+                        <p>Portugal</p>
                     </div>
                 </div>
             </div>

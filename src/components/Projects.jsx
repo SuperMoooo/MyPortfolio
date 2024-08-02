@@ -23,7 +23,7 @@ export default function Projects() {
             <section className="flex items-center justify-center flex-col space-y-12 w-full">
                 <Title title="Projects" />
 
-                <ul className="grid grid-cols-1 gap-4 w-full px-10 lg:px-20 sm:grid-cols-2  lg:grid-cols-3 grid-flow-row ">
+                <ul className="grid grid-cols-1 lg:gap-8 gap-4 w-full px-10 lg:px-20 sm:grid-cols-2  lg:grid-cols-3  ">
                     <ProjectCard
                         img={portfolio}
                         liveLink="https://supermoooo.github.io/MyPortfolio/"
@@ -56,7 +56,7 @@ export default function Projects() {
                         liveLink="https://superheroesinfo.vercel.app/"
                         gitHubTrue={true}
                         gitHubLink="https://github.com/SuperMoooo/superheroesinfo"
-                        title="Comic Characters Info"
+                        title="Characters Info"
                         desc="Comic Characters Info (Appearance, biography, powerstats, etc...)"
                         techs={[
                             'Next.JS',
@@ -157,7 +157,7 @@ export default function Projects() {
                         liveLink="https://supermoooo.github.io/microsoftInterviewQuestionPractice/"
                         gitHubTrue={true}
                         gitHubLink="https://github.com/SuperMoooo/microsoftInterviewQuestionPractice"
-                        title="Interview Question Practice"
+                        title="Practice"
                         desc="Microsoft Interview Question Practice"
                         techs={['React']}
                     />
@@ -166,7 +166,7 @@ export default function Projects() {
                         liveLink="https://supermoooo.github.io/uberInterviewQuestionPractice/"
                         gitHubTrue={true}
                         gitHubLink="https://github.com/SuperMoooo/uberInterviewQuestionPractice"
-                        title="Interview Question Practice"
+                        title="Practice"
                         desc="Uber Interview Question Practice"
                         techs={['React']}
                     />
