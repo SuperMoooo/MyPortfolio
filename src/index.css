@@ -23,6 +23,13 @@
     background-size: 12px 12px;
 }
 
+@media (min-width: 1023px) {
+    .outlineText {
+        -webkit-text-stroke: 0.2px #fff;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
 .translateText {
     animation: translateY 1s ease forwards;
     animation-delay: 800ms;
@@ -92,4 +99,44 @@
 .hrGradient2 {
     border-image-source: linear-gradient(-90deg, #ffffff00, #fff);
     border-image-slice: 1;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.checkbox:checked,
+.checkbox[aria-checked='true'] {
+    background-repeat: no-repeat;
+    animation: checkmark 0.3s forwards ease-out;
+    background-color: #ffffff;
+    background-image: linear-gradient(-45deg, transparent 65%, #ffffff 65.99%),
+        linear-gradient(45deg, transparent 75%, #ffffff 75.99%),
+        linear-gradient(-45deg, #ffffff 40%, transparent 40.99%),
+        linear-gradient(
+            45deg,
+            #ffffff 30%,
+            rgb(48, 48, 48) 30.99%,
+            rgb(48, 48, 48) 40%,
+            transparent 40.99%
+        ),
+        linear-gradient(-45deg, rgb(48, 48, 48) 50%, rgb(48, 48, 48) 50.99%);
+}
+
+.checkbox:checked,
+.checkbox[aria-checked='true'] {
+    background-repeat: no-repeat;
+    animation: checkmark 0.3s forwards ease-out;
+    background-color: #ffffff;
+    background-image: linear-gradient(-45deg, transparent 65%, #ffffff 65.99%),
+        linear-gradient(45deg, transparent 75%, #ffffff 75.99%),
+        linear-gradient(-45deg, #ffffff 40%, transparent 40.99%),
+        linear-gradient(
+            45deg,
+            #ffffff 30%,
+            rgb(48, 48, 48) 30.99%,
+            rgb(48, 48, 48) 40%,
+            transparent 40.99%
+        ),
+        linear-gradient(-45deg, rgb(48, 48, 48) 50%, #ffffff 50.99%);
 }

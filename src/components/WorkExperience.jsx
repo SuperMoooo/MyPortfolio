@@ -34,13 +34,13 @@ export default function WorkExperience() {
         },
     ];
     return (
-        <section className="mt-20 flex flex-col items-center ">
-            <Title title="Work Experience" />
+        <section className="mt-40 flex flex-col items-center space-y-12 md:px-24 px-6 lg:relative">
+            <Title title="Work" />
             <div
                 style={{
                     gridTemplateRows: `repeat(${jobs.length}, minmax(0, 1fr))`,
                 }}
-                className={`grid sm:grid-cols-2 grid-cols-1 w-full sm:px-0 px-6  h-full place-items-center sm:container sm:mx-auto`}
+                className={`grid sm:grid-cols-2 grid-cols-1 w-full sm:px-0  z-10  h-full place-items-center sm:container sm:mx-auto`}
             >
                 {jobs.map((job, index) => (
                     <Jobs

@@ -44,9 +44,9 @@ export default function Skills() {
 
     return (
         <>
-            <section className="mt-20 flex flex-col items-center ">
+            <section className="mt-40 flex flex-col items-center space-y-12 md:px-24 px-6 lg:relative">
                 <Title title="Skills" />
-                <ul className="grid grid-cols-2 gap-5 md:grid-cols-3 md:gap-12 lg:grid-cols-5 lg:gap-14 items-center justify-center   mt-10">
+                <ul className="grid grid-cols-2 sm:gap-6 gap-10 md:grid-cols-3 md:gap-12 lg:grid-cols-5 lg:gap-14  place-items-center items-center z-10 mt-10">
                     {Object.keys(techs).map((tech) => (
                         <SkillCard
                             key={tech}
