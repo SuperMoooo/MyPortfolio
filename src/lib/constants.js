@@ -15,6 +15,7 @@ import microsoftInter from '../assets/projectsImg/microsoftInter.webp';
 import uberInter from '../assets/projectsImg/uberInter.webp';
 import customizeBtn from '../assets/projectsImg/customizeBtn.webp';
 import typeSpeedTest from '../assets/projectsImg/typeSpeedTest.webp';
+import pokeGames from '../assets/projectsImg/pokeGames.webp';
 
 export const PROJECTS = [
     {
@@ -34,6 +35,15 @@ export const PROJECTS = [
         title: 'MoT',
         desc: 'Mobile app to track birthdays (with notification when its birthday), notes and tasks',
         techs: ['React Native', 'Redux TK', 'JavaScript'],
+    },
+    {
+        img: pokeGames,
+        liveLink: 'https://poke-games-nine.vercel.app/',
+        gitHubTrue: true,
+        gitHubLink: 'https://github.com/SuperMoooo/PokeGames',
+        title: 'PokeGames',
+        desc: 'Games for Pokémon fans',
+        techs: ['Next.js', 'Tailwind', 'TypeScript', 'API', 'Redux TK'],
     },
     {
         img: kubicDeal,
