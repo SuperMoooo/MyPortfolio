@@ -42,8 +42,15 @@ export const PROJECTS = [
         gitHubTrue: true,
         gitHubLink: 'https://github.com/SuperMoooo/PokeGames',
         title: 'PokeGames',
-        desc: 'Games for Pokémon fans',
-        techs: ['Next.js', 'Tailwind', 'TypeScript', 'API', 'Redux TK'],
+        desc: 'Guess the unknown Pokémon, Stronger or Weaker (with online leaderboard), Guess the blur Pokémon.',
+        techs: [
+            'Next.js',
+            'Tailwind',
+            'TypeScript',
+            'API',
+            'Redux TK',
+            'MongoDB',
+        ],
     },
     {
         img: kubicDeal,
