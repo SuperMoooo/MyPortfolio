@@ -114,7 +114,7 @@ export const PROJECTS = [
         title: 'Slime Game',
         desc: 'A game made for the final project of the course',
         techs: ['GDevelop'],
-    },
+    } /* 
     {
         img: typeSpeedTest,
         liveLink: 'https://supermoooo.github.io/Typing-Speed-Test/',
@@ -123,7 +123,7 @@ export const PROJECTS = [
         title: 'Type Speed Test',
         desc: 'A type speed test game',
         techs: ['Next.js', 'TypeScript', 'Tailwind'],
-    },
+    }, */,
     {
         img: rockPaperScissors,
         liveLink: 'https://supermoooo.github.io/rockPaperScissors/',
@@ -159,7 +159,7 @@ export const PROJECTS = [
         title: 'Bipo Game',
         desc: 'Game developed within the scope of the game development discipline',
         techs: ['Unreal Engine 5'],
-    },
+    } /* 
     {
         img: microsoftInter,
         liveLink:
@@ -180,7 +180,7 @@ export const PROJECTS = [
         title: 'Practice',
         desc: 'Uber Interview Question Practice',
         techs: ['React'],
-    },
+    }, */ /* 
     {
         img: customizeBtn,
         liveLink: 'https://supermoooo.github.io/customizeBtn/',
@@ -189,5 +189,5 @@ export const PROJECTS = [
         title: 'Customize Button',
         desc: 'Website to customize the button of your app',
         techs: ['React', 'Tailwind', 'Material UI'],
-    },
+    }, */,
 ];

@@ -28,7 +28,7 @@ export default function NavBar() {
                     </li>
                     <li>
                         <a
-                            href="https://www.linkedin.com/in/andr%C3%A9-montoito-1541ab2b3/"
+                            href="https://www.linkedin.com/in/andre-montoito/"
                             target="_blank"
                         >
                             <svg
